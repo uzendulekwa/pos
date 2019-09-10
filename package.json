@@ -11,5 +11,9 @@
     "url": "git+ssh://git@github.com/chatissantos/pos.git"
   },
   "author": "Lekwa Uzendu (uzendulekwa@gmail.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.7.4",
+    "typescript": "^3.6.2"
+  }
 }
