@@ -4,7 +4,9 @@
   "description": "Console point of sales application",
   "main": "src/index.ts",
   "scripts": {
-    "test": "mocha"
+    "build": "tsc",
+    "test": "mocha",
+    "start": "node ./dist/index.js"
   },
   "repository": {
     "type": "git",
